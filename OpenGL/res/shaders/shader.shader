@@ -19,7 +19,7 @@ void main() {
 out vec4 color;
 in vec4 pos;
 
-int MAXITERS = 255;
+int MAXITERS = 80;
 
 float mandelBrot(double r, double i) {
 	double zn = 0;
